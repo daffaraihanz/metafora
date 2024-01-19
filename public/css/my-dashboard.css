@@ -1,0 +1,242 @@
+.sub-aspect{
+    padding: 0 24px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px #CCCCCC;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+
+.input-disabled input{
+    cursor: not-allowed;
+    background: rgb(242, 242, 242);
+    color: black;
+    border: none;
+}
+
+.question-wrapper p{
+    font-size: 16px;
+}
+
+.color1{
+    background: #605F4C;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color2{
+    background: #0094FF;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color3{
+    background: #399E2D;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color4{
+    background: #FFA726;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color5{
+    background: #FF2D92;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color6{
+    background: #14505C;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color7{
+    background: #FF6354;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color8{
+    background: #FF1EE8;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color9{
+    background: #FFD335;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color10{
+    background: #0922dd;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color11{
+    background: #6B0077;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color12{
+    background: #040404;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color13{
+    background: #DDC3A4;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color14{
+    background: #B4B61A;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color15{
+    background: #77CFBE;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color16{
+    background: #0076A1;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color17{
+    background: #F4B8C0;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color18{
+    background: #353E7C;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color19{
+    background: #EDD5F7;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+.color20{
+    background: #C8E2EB;
+    width: 30px;
+    height: 30px;
+    border-radius: 200px;
+}
+
+.payment-method-wrapper label{
+    border: none ;
+    padding: 0;
+    padding: 20px 20px;
+    width: 100%;
+    text-align: left;
+    border: solid 1px #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 200px;
+    transition: .3s;
+    background: #ffffff;
+}
+
+.color-identity{
+  width: 100%;
+  height: 10px;
+  border-radius: 200px;
+}
+
+.btn-secondaryz{
+    border: solid 1px #2764FF !important;
+    background: none;
+    color: #2764FF;
+}
+
+.sidebar-item .active{
+    background: #2764FF;
+}
+.sidebar-item .active /hide-menu{
+    color: #ffffff;
+}
+
+.dashboard-request .right-side{
+    background: #F4F5FB ;
+}
+
+.cardz-wrapper{
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.cardz-wrapper p{
+    color: #393939;
+    font-weight: 600;
+}
+
+.cardz-wrapper label{
+    color: #616161;
+}
+
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+    padding: 0;
+    color: #393939;
+}
+
+input, textarea, select{
+    border: solid 1px #CCCCCC !important;
+}
+
+.answer-wrapper p:nth-child(1){
+    padding: 0 24px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px #CCCCCC;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.answer-wrapper p:nth-child(2){
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50px;
+    color: white;
+    border-radius: 4px;
+}
+
+.answer-wrapper p:nth-child(3){
+    padding: 0 24px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    background: linear-gradient(90deg, rgba(60,9,121,1) 35%, rgba(0,212,255,1) 100%);;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 4px;
+    margin-right: 8px;
+}

@@ -1,0 +1,249 @@
+.sub-aspect{
+    padding: 0 24px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px #CCCCCC;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.checkbox-answer-active{
+    background: red !important;
+}
+
+.payment-method-wrapper label{
+    border: none ;
+    padding: 0;
+    padding: 14px 24px;
+    width: 100%;
+    text-align: left;
+    border: solid 1px #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 12px;
+    transition: .3s;
+    background: #ffffff;
+}
+
+.cardz-wrapper{
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.cardz-wrapper p{
+    color: #393939;
+    font-weight: 600;
+}
+
+.cardz-wrapper label{
+    color: #616161;
+}
+
+.headerz{
+    padding-top: var(--spacer12);
+    padding-bottom: var(--spacer7);
+}
+
+.headerz img{
+    margin-right: var(--spacer1);
+    margin-left: var(--spacer3);
+}
+
+.headerz h5 {
+    font-weight: var(--medium);
+    font-size: var(--spacer6);
+}
+.profil-dropdown{
+    background: #ffffff;
+    position: absolute;
+    z-index: 999;
+    right: 120px;
+    top: 110px;
+    width: 20%;
+    padding : 0;
+    box-shadow: 0px 40px 65px 0px rgba(0, 0, 0, 0.03);
+}
+
+.profil-dropdown ul li{
+    width: 100%;
+}
+
+.profil-dropdown ul li a p{
+    color: #2764FF;
+    font-size: 18px !important;
+    padding: 20px 0 20px 20px !important;
+    width: 100% !important;
+}
+
+.profil-dropdown ul li a p:hover{
+    color: #ffffff ;
+    background: #2764FF;
+}
+
+.profil-dropdown ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+ul li{
+    list-style: none;
+}
+
+input{
+    border-radius: 12px !important;
+    padding: 16px 24px !important;
+    border: none !important;
+}
+
+
+input::placeholder{
+    font-weight: 500 !important;
+    color: #CCCCCC !important;
+}
+
+.btn-checkbox{
+    padding: 14px 24px;
+    border: solid 1px #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 12px;
+    transition: .3s;
+    background: #ffffff;
+}
+
+.btn-checkbox:hover{
+    padding: 14px 24px;
+    border: solid 1px #04C09B;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 12px;
+    transition: .3s;
+    background: #04C09B20;
+}
+
+.warning-info{
+    padding: 14px 0;
+    border: solid 1px #FFA726;
+    border-radius: 12px;
+    transition: .3s;
+    background: #faf2e8;
+    color: #FFA726;
+    justify-content: center;
+}
+
+.warning-info h5{
+    color: #c67701;
+    font-size: 16px;
+}
+
+.btn-success{
+    padding: 14px 24px;
+    border: solid 1px #04C09B;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: .3s;
+    background: #04C09B;
+    color: #ffffff;
+}
+
+.btn-primary{
+    padding: 12px 24px;
+    border: solid 1px #2764FF;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: .3s;
+    background: #2764FF;
+    color: #ffffff;
+}
+
+.btn-dangerz{
+    padding: 14px 24px;
+    border: solid 1px #ff7b7b;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: .3s;
+    background: #ff7b7b;
+    color: #ffffff;
+}
+
+.btn-dangerz:hover{
+    background: #ff7b7b48;
+    border: solid 1px #ff7b7b30;
+    transition: .3s;
+    color: #ff7b7b;
+}
+
+.btn-white{
+    padding: 14px 24px;
+    border: solid 1px #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: .3s;
+    background: #ffffff;
+    color: #2764FF;
+}
+
+.btn-secondaryz{
+    padding: 14px 24px;
+    border: solid 1px #2764FF !important;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: .3s;
+    color: #2764FF;
+    background: none;
+}
+
+.btn-secondaryz-disable{
+    padding: 14px 24px;
+    border: solid 1px #616161 !important;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+    transition: .3s;
+    color: #616161;
+    background: none;
+    cursor: default;
+}
+
+.btn-secondaryz:hover{
+    background: #2764ff48;
+    border: solid 1px #2764ff30;
+    transition: .3s;
+}
+
+.btn-primary:hover{
+    background: #2764ff48;
+    border: solid 1px #2764ff30;
+    transition: .3s;
+    color: #2764FF;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    
+}
+
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+    padding: 0;
+    color: #393939;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
